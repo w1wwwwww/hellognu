@@ -37,6 +37,7 @@ IntelliJ IDEA
 *.i*86
 *.x86_64
 *.hex
+hello
 
 # Debug files
 *.dSYM/
