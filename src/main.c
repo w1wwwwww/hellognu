@@ -38,11 +38,11 @@ main (int argc, char **argv)
   else if (strcmp ("-V", argv[1]) == 1 || strcmp ("--version", argv[1]) == 1
 	   || strcmp ("-H", argv[1]) == 1 || strcmp ("--help", argv[1]) == 1)
     {
-      printf ("ERROR: hellognu: unknown argument");
+      printf ("ERROR: hellognu: unknown argument\n");
     }
   else
     {
-      printf ("ERROR: hellognu: too many arguments");
+      printf ("ERROR: hellognu: too many arguments\n");
     }
 
   return 0;
