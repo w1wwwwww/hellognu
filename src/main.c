@@ -1,4 +1,5 @@
-/*  hellogcc - A "Hello World" program implementing the GNU coding standards
+/* 
+    hellogcc - A "Hello World" program implementing the GNU coding standards
     Copyright (C) 2022  w1wwwwww
 
     This program is free software: you can redistribute it and/or modify
