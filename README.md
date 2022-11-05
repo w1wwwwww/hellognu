@@ -5,8 +5,8 @@ A "hello world" program implementing the GNU coding standards.
 
 ## building
 ### dependancies
-GCC
-Make
+1. GCC
+2. Make
 ### build process
 1. Download latest build artifact from https://github.com/w1wwwwww/hellognu/actions
 2. Run:
