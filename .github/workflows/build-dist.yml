@@ -1,4 +1,4 @@
-﻿name: build-dist
+name: build-dist
 on: [push: branches: [main]]
 
 jobs:
