@@ -12,8 +12,8 @@ jobs:
           autoreconf --install
           ./configure
           make distcheck
-          tar xzf hellognu-1.0.0.tar.gz -o hellognu
-          mv hellognu ../hellognu
+          tar xzf hellognu-1.0.0.tar.gz
+          mv hellognu-1.0.0 ../hellognu
 
       - name: Step 2 - Upload Artifacts
         uses: actions/upload-artifact@v3
