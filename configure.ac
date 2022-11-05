@@ -4,6 +4,6 @@ AC_PROG_CC
 
 AC_CONFIG_FILES(Makefile)
 
-AM_INIT_AUTOMAKE([-Wall -Werror])
+AM_INIT_AUTOMAKE([-Wall -Werror subdir-objects])
 
 AC_OUTPUT
