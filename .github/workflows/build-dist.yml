@@ -5,12 +5,7 @@ jobs:
   build-dist:
     runs-on: ubuntu-latest
     steps:
-      - name: Step 1 - Install Dependancies
-        run: |
-          apt-get install git
-          apt-get install automake
-          apt-get install gcc
-      - name: Step 2 - Build Project
+      - name: Step 1 - Build Project
         run: |
           git clone https://github.com/w1wwwwww/hellognu
           cd hellognu
@@ -18,8 +13,8 @@ jobs:
           ./configure
           make distcheck
           tar xzf hellognu-1.0.0.tar.gz
-      - name: Step 3 - Upload Artifacts
+      - name: Step 2 - Upload Artifacts
         uses: actions/upload-artifact@v2
         with:
           name: hellognu-${{ github.run_attempt }}
-          path: hellognu-1.0.0
+          path: hellognu-1.0.0.tar.gz
